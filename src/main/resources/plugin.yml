@@ -1,0 +1,11 @@
+name: QuincyCore
+version: ${project.version}
+main: com.quincynetwork.core.QuincyCore
+
+depend:
+  - Vault
+
+commands:
+  otosat:
+    aliases:
+      - autosell
